@@ -4,7 +4,7 @@ original_image:
 
 converted_image1:
   type: kedro_datasets.pillow.ImageDataset
-  filepath: data/02_intermediate/resized_image.png
+  filepath: data/03_primary/resized_image.png
 
 converted_image2:
   type: kedro_datasets.pillow.ImageDataset
@@ -12,4 +12,4 @@ converted_image2:
 
 converted_image3:
   type: kedro_datasets.pillow.ImageDataset
-  filepath: data/04_feature/grayscaletexted_image.png  
+  filepath: data/03_primary/grayscaletexted_image.png 
